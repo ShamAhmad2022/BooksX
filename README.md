@@ -4,4 +4,4 @@ My first personal project using PHP and phpMyAdmin with HTML, CSS and JS. It was
 
 BooksX is a simple website where readers can buy, sell or exchange normal/online books with other readers.
 
-I have provided more details in the PowerPoint file, and 10 mintes video on how the website works.
+I have provided more details in the PowerPoint file, and 7 mintes video on how the website works.
