@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(188, 185, 184);
+
+        }
+
+        .mains{
+            background-color: rgb(255, 255, 255);
+            max-width: 1050px;
+            height: auto;
+            border-radius: 5%;
+            margin: 120px 0px 0px 210px;
+        }
+
+        .mabody{
+            padding: 30px 170px 170px 240px;
+        }
+
+        a{
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            background-color: rgb(108, 89, 65);
+            padding: 10px 40px;
+            
+        }
+        a:hover{
+            background-color: rgb(173, 153, 129);
+        }
+
+        p{
+            font-size: 26px;
+            margin: 150px 0px 0px 100px;
+        }
+
+        #logout{
+            background-color: gray;
+            margin-left:70px;
+        }
+    </style>
+</head>
+<body>
+    <section class="mains">
+        <div class="mabody">
+            <p>Welcome to admin control panel:</p>
+            <br><br><br><br>
+            <a style="margin-right: 90px;" href="manageusers.php">manage users</a>
+            <a href="managebooks.html">manage books</a>
+        </div>
+        <a id="logout" style="margin-bottom:-40px ;" href="adminLogin.php">Logout</a><br><br>
+    </section>
+</body>
+</html>
